@@ -1,1 +1,62 @@
-`我想充值 ${gameName} 的 ${amountDisplay}，代充价 ${agentPrice} MYR。`
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>游戏代充价格中心 | GameTopUp</title>
+    <style>
+        * { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+        body { background: #0a0e1a; color: #fff; padding: 20px; margin: 0; }
+        h1 { font-size: 1.8rem; }
+        .price-grid { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 24px; }
+        .price-card { background: #1f2937; border-radius: 20px; padding: 20px; width: 280px; border: 1px solid #374151; }
+        .price-card h3 { margin: 0 0 8px 0; font-size: 1.3rem; }
+        .price { font-size: 1.5rem; font-weight: bold; color: #34d399; margin: 12px 0; }
+        .btn { background: linear-gradient(135deg, #3b82f6, #8b5cf6); padding: 10px 20px; border-radius: 40px; color: white; text-decoration: none; display: inline-block; font-weight: 600; margin-top: 12px; border: none; cursor: pointer; }
+        .btn:hover { opacity: 0.9; }
+        .note { margin-top: 40px; font-size: 0.8rem; color: #6b7280; }
+        @media (max-width: 640px) { .price-card { width: 100%; } }
+    </style>
+</head>
+<body>
+    <h1>🎮 游戏代充价格中心</h1>
+    <p>✅ 价格 = 官方价 + 2 MYR | 💳 支持 Touch 'n Go | ⏱️ 一小时内到账</p>
+    <div class="price-grid">
+        <div class="price-card">
+            <h3>👑 HOK（王者荣耀国际服）</h3>
+            <div class="price">8 点券 - RM 2.49</div>
+            <a href="https://wa.me/601115101632?text=我想充值%20HOK%20的%208%20点券，代充价%202.49%20MYR。" class="btn">立即充值</a>
+        </div>
+        <div class="price-card">
+            <h3>✨ 原神</h3>
+            <div class="price">60 创世结晶 - RM 5.90</div>
+            <a href="https://wa.me/601115101632?text=我想充值%20原神%20的%2060%20创世结晶，代充价%205.90%20MYR。" class="btn">立即充值</a>
+        </div>
+        <div class="price-card">
+            <h3>🔫 PUBG Mobile</h3>
+            <div class="price">60 UC - RM 6.20</div>
+            <a href="https://wa.me/601115101632?text=我想充值%20PUBG%20的%2060%20UC，代充价%206.20%20MYR。" class="btn">立即充值</a>
+        </div>
+        <div class="price-card">
+            <h3>🚂 崩坏：星穹铁道</h3>
+            <div class="price">60 古老梦华 - RM 6.90</div>
+            <a href="https://wa.me/601115101632?text=我想充值%20崩坏星穹铁道%20的%2060%20古老梦华，代充价%206.90%20MYR。" class="btn">立即充值</a>
+        </div>
+        <div class="price-card">
+            <h3>⚔️ 崩坏3</h3>
+            <div class="price">30 B-Chips - RM 4.49</div>
+            <a href="https://wa.me/601115101632?text=我想充值%20崩坏3%20的%2030%20B-Chips，代充价%204.49%20MYR。" class="btn">立即充值</a>
+        </div>
+        <div class="price-card">
+            <h3>🎯 尘白禁区</h3>
+            <div class="price">BitGold 6 - RM 7.49</div>
+            <a href="https://wa.me/601115101632?text=我想充值%20尘白禁区%20的%20BitGold%206，代充价%207.49%20MYR。" class="btn">立即充值</a>
+        </div>
+    </div>
+    <div class="note">
+        <p>📌 全部游戏只需提供 UID，不需要密码。<br>
+        📌 更多档位请通过 WhatsApp 咨询。<br>
+        📌 价格以询价时官方价为准，锁定后不变。</p>
+    </div>
+</body>
+</html>
